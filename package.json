@@ -1,0 +1,11 @@
+{
+  "name": "Node_Script_Template",
+  "version": "1.0.0",
+  "main": "app/src/index.js",
+  "repository": "git@github.com:SampleUser0001/Node_Script_Template.git",
+  "author": "ittimfn <ittimfn+github@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node app/src/index.js"
+  }
+}

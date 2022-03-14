@@ -1,0 +1,10 @@
+version: '3'
+services:
+  tool:
+    build: .
+    container_name: node_tool
+    volumes:
+      - ./app:/opt/app/app
+      - ./package.json:/opt/app/package.json
+    environment:
+        NODE_ENV: 'production'
